@@ -8,3 +8,7 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+.header{
+    height: 95vh;
+    background: url('../image/header-image.jpg');
+}
