@@ -174,3 +174,32 @@ a:hover{
     height: 100%;
     object-fit: cover;
 }
+
+/* ########## Artical design ############ */
+.feature{
+ padding: 10rem 0;
+}
+.box-wrapper{
+ box-shadow:rgba(5px,5px,5px,0.5)
+
+}
+.box{
+    width: 33.333333%;
+    text-align: center;
+    padding:2rem ;
+}
+.box1{
+    float: left;
+    background-color: #263238;
+    color: white;
+}
+.box2{
+ float: left;
+ background-color:lightcoral ;
+ color: white;
+}
+.box3{
+  float: left;
+  background-color: #263238;
+  color: white;
+}
