@@ -73,7 +73,7 @@ h1,h2,h3{
     background-color: #fff;
 }
 .row .text-box a:hover{
-    background-color: #ddd;
+    background-color: #5a5656;
 }
 
 /* #################### */
@@ -103,9 +103,9 @@ h1,h2,h3{
     display: inline;
 }
 a:hover{
-    color: lightblue;
+    color: rgb(118, 121, 122);
    border-bottom: 1px solid #fff;
-   background-color: #ddd
+   background-color: #dddddd00
 }
 .header .navbar .item{
     display: inline;
@@ -202,4 +202,14 @@ a:hover{
   float: left;
   background-color: #263238;
   color: white;
+}
+/* ############### Footer styling ### */
+.footer{
+    background-color: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center; 
+}
+.social-media i{
+    margin: 2rem;
 }
