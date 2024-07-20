@@ -300,3 +300,35 @@ a:hover{
  border-radius: 0.5rem;
  text-transform: uppercase;
 } 
+
+/* ###################### Contact page ################# */
+.contact-page{
+
+}
+.contact{
+
+}
+.contact-page .contact .left img{
+    width: 50%;
+    float: left;
+    margin-top: 5rem;
+}
+.contact-page .contact .right{
+  float: right;
+  margin: 5rem 20rem;
+  text-align: center;
+  font-size: large;
+  background-color:#e63946 ;
+  color: #ddd;
+  width: 20%;
+  letter-spacing: 0.1rem;
+}
+.contact-page .contact .right h1{
+    text-decoration: underline;
+}
+
+.heading-line{
+    border-bottom: 6px solid #e63946;
+    margin: 3rem 2rem;
+    width: 50%;
+}
