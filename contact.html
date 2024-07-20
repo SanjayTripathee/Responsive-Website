@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>form</title>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/221ab668de.js" crossorigin="anonymous"></script>
+    <title>Travel Weebsite</title>
+</head>
   <body>
-    <h1>Html Forms</h1>
+    <nav class="navbar  about-color">
+      <div class="container">
+        <h1 class="logo lg-heading text-light">ST</h1>
+        <ul class="items">
+            <li class="item"><a href="./home.html">Home</a></li>
+            <li class="item"><a href="./about.html">About</a></li>
+            <li class="item"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="fix"></div>
+    </nav>
+    
+    <section class="contact-page">
+      <div class="contact">
+        <div class="left"><img src="./image/headerr.jpg" alt=""></div>
+        <div class="right">
+          <h1>Html Forms</h1>
     <form method="GET" action="list.html">
       <label for="username">Username :</label>
       <input type="text" id="username" placeholder="username" name="name" required/><br />
@@ -38,5 +56,9 @@
      <br/><br/>
       <button>Submit Form</button>
     </form>
+        </div>
+      </div>
+    </section>
+    
   </body>
 </html>
