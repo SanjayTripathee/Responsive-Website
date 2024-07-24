@@ -77,7 +77,7 @@ h1,h2,h3{
 }
 
 /* #################### */
-
+/* #############  Home page ######################## */
 .header{
     height: 95vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../image/header.jpg');
@@ -331,4 +331,37 @@ a:hover{
     border-bottom: 6px solid #e63946;
     margin: 3rem 2rem;
     width: 50%;
+}
+
+/* ################## media query ################# */
+
+@media (max-width: 500px){
+    html{
+       font-size: 50%; 
+    }
+    .header .navbar .logo, .header .navbar .items{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .header-contain h1{
+        display: none;
+    }
+    .showcase .row1, .showcase .row2{
+       height: auto;
+    }
+    .row .img-box,.row .text-box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .feature .box{
+        /* height: auto; */
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .feature .box1,.feature .box2,.feature .box3{
+        margin-top: 0.5rem;
+    }
 }
