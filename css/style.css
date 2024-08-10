@@ -309,8 +309,8 @@ a:hover{
 
 }
 .contact-page .contact .left img{
-    width: 50%;
     float: left;
+    width: 50%;
     margin-top: 5rem;
 }
 .contact-page .contact .right{
@@ -332,6 +332,7 @@ a:hover{
     margin: 3rem 2rem;
     width: 50%;
 }
+
 
 /* ################## media query ################# */
 
@@ -364,4 +365,32 @@ a:hover{
     .feature .box1,.feature .box2,.feature .box3{
         margin-top: 0.5rem;
     }
+
+    /* ##### About page media query ##### */
+    .word .travell,
+    .word .place,
+    .word .guid,
+    .word .sport{
+        float:none;
+        width: 100%;
+        text-align: center;
+        margin: 0 -3.2%;
+    }
+    .block .paragraph,
+    .block .btn-pra{
+        float: none;
+        width: 100%;
+       text-align: center;
+    }
+    /* ############ Contact page ############### */
+.contact-page .contact .left{
+    float: none;
+        width:66%;
+        text-align: center;
+}
+    .contact-page .contact .right{
+        float: none;
+        width:45%;
+    }
+
 }
